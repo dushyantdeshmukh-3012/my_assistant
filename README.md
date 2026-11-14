@@ -49,3 +49,52 @@ To run the Smart AI Assistant, the following three basic prerequisites must be m
 
 - A working microphone (built-in laptop microphone or external headset)
 - Working speakers or headphones to hear the assistant's responses (Most laptops have built-in speakers.)
+
+<br>
+
+## 3) Installation & Setup
+
+Follow these steps to install and run the Smart AI Assistant on a Windows computer.
+
+### Step 1: Clone the Repository
+
+Make sure Git and Python are installed on your computer. Open Command Prompt or a terminal and run:
+<br>
+<br>
+>> git clone https://github.com/dushyantdeshmukh-3012/my_assistant.git
+cd my_assistant
+<br>
+
+Alternatively, download the repository as a ZIP file from GitHub and extract it.
+
+<br>
+
+### Step 2: Install Dependencies
+
+Install the required Python packages using the `requirements.txt` file:
+<br>
+Run the following command to do this.
+<br>
+<br>
+>> python -m pip install -r requirements.txt
+<br>
+
+**Note:** If you encounter an error while installing PyAudio, try installing it separately using the following command:
+<br>
+<br>
+>> python -m pip install pyaudio
+<br>
+
+If the error persists, check the PyAudio installation instructions for your Python version and Windows environment.
+
+<br>
+
+### Step 3: Run the Application
+
+From the project's root directory, execute:
+<br>
+<br>
+>> python app.py
+<br>
+
+The application's graphical interface should open, allowing you to interact with the voice-controlled assistant.
